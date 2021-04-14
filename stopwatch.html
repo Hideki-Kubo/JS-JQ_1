@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="style_stopwatch.css">
+        <title>ストップウォッチ</title>
+    </head>
+
+    <body>
+        <h3>ストップウォッチ</h3>
+        <div class="timer">
+            <span id="hours">0</span>:
+            <span id="minutes">0</span>:
+            <span id="seconds">0</span>.
+            <span id="deciSeconds">0</span>
+        </div>
+
+        <div class="flex-container">
+            <button id="startButton" onclick="timerStart()">start</button>
+            <button id="stopButton" onclick="timerStop()" disabled>stop</button>
+            <button id="resetButton" onclick="timerReset()" disabled>reset</button>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

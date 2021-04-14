@@ -1,0 +1,31 @@
+h3 {
+    text-align: center;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 50px;
+}
+
+.timer span {
+    margin:0 5px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+}
